@@ -1,18 +1,18 @@
 #1. variables & data types
-name = "om"
+name = "janhavee"
 print(name)
-age = 21
+age = 20
 print(age)
 is_student <- TRUE
 
 #2.Create a vector containing the numbers 1 to 10.
-vector <- 1:10
+vector <- 1:15
 
 #3.Create a sequence from 5 to 50 with a step size of 5
-s <- seq(5,50, by = 5)
+s <- seq(5,50, by = 10)
 
 #4.Store the names of 5 fruits in a character vector and display the second and fourth fruit.
-fruits <- c("apple", "banana", "cherry", "grapes", "oranges")
+fruits <- c("red", "blue", "cyan", "green", "orange")
 fruits[c(2,4)]
 
 #5.Create a numeric vector of 10 random numbers between 1 and 100, then find
@@ -24,8 +24,8 @@ max(nums);min(nums);mean(nums)
 #6.Create a data frame with columns: Name, Age, Marks. Enter at least 5 records.
 df <- data.frame(
   name = c("n1", "n2", "n3","n4", "n5"),
-  age = c(12, 13, 14, 15,16),
-  marks = c(55, 66, 77, 88, 99)
+  age = c(10, 20, 30, 40, 50),
+  marks = c(50, 60, 70, 80, 90)
 )
 df
 
@@ -325,6 +325,7 @@ ggplot(top_10,aes( x = reorder(Name, -SR), y = SR)) +
 
 #Q6)
 cor(batting_bowling_ipl_bat$HF, batting_bowling_ipl_bat$Runs, use = "complete.obs")
+
 
 
 
